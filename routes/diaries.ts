@@ -1,6 +1,6 @@
 import express from 'express';
 import diaryService from '../src/services/diaryService';
-import toNewDiaryEntry from '../utils';
+import toNewDiaryEntry from './utils';
 
 const router = express.Router();
 
